@@ -8,23 +8,23 @@
 
 .wrapper {
   background-color: #e5e5e5;
-  width: 327px;
-  padding: 40px;
+  /*width: 327px;*/
+  /*padding: 40px;*/
 }
 
 #header {
   display: flex;
   justify-content: space-between;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 50%;
   margin-right: 0;
   color: blue;
   font-size: 16px;
   margin-bottom: 20%;
-  padding: 20px;
+  padding: 10px;
 }
 
-.logo {
+.logo a {
   font-size: 18px;
 }
 
