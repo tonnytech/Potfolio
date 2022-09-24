@@ -2,32 +2,37 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'poppins',sans-serif;
+  font-family: 'poppins', sans-serif;
+
 }
  
 .wrapper {
   background-color: #e5e5e5;
   width: 327px;
   padding: 40px;
+
 }
 #header {
   display: flex;
-  justify-content: space-between;   
+  justify-content: space-between;
   margin-left: 2%;
   margin-top: 2%;
   margin-right: 0px;
   color: blue;
   font-size: 16px;
   margin-bottom: 20%;
-  padding: 20px;  
+  padding: 20px;
+
 }
 
 .logo {
   font-size: 18px;
+
 }
 
 .nav_icon {
   margin: 8px;
+
 }
 
 .page_one{
@@ -38,7 +43,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 12px;
-  padding: 100px, 30px;  
+  padding: 100px, 30px;
+
 }
 
 .page_one h1 {
@@ -51,10 +57,12 @@
   font-size: 16px;
   margin-right: 24px;
   margin-left: 24px;
+
 }
 
 .connect {
   color: blue;
+
 }
 
 .links ul {
@@ -62,4 +70,5 @@
   display: flex;
   gap: 10px;
   padding: 0;
+
 }
