@@ -1,12 +1,12 @@
 # My portfolio project
-This project describes who i am and tells what i can do. There is a link to my projects. Anyone viewing it can also see the projects that i have previously worked on. 
+This is a porfolio project that has my details and infromation. 
 
 # Getting started
 ### What its built with
 1. HTML
 2. CSS3
 
-## prerequisites
+## Prerequisites
 To be able to make this project work in your system, you will need to have the following installed in your system:
 1. A web browser such as a chrome
 2. A code editor such as a vs code, Notepad, Atom
