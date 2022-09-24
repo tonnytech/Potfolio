@@ -1,145 +1,73 @@
-html {
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
 }
-img {
-  height: 220px;
-  width: 330px;
-  left: 16px;
-  top: 16px;
-  border-radius: 8px;
+ 
+.wrapper {
+    background-color: #e5e5e5;
+    width: 327px;
+    padding: 40px;
+    
+
+
 
 }
+#header {
+    display: flex;
+    justify-content: space-between;   
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 0px;
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 20%;
+    padding: 20px;
 
-.card_works{
-  height: 552px;
-  width: 327px;
-  left: 24px;
-  top: 1438px;
-  border-radius: 16px;
-  padding: 16px;    
+    
+}
+.logo {
+    font-size: 18px;
+}
+
+.nav_icon {
+    margin: 8px;
+}
+.page_one{
+  margin:20px;
+  background-image: url(images/header-mobile.png);
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-
-}
-.card_works .toolbar {
-  display: flex;
   justify-content: center;
+  gap: 12px;
+  padding: 100px, 30px;
   
-}
-.card_works .toolbar .snapshot{
-    flex-basis: auto;
-}
-.card_works .left_block {
-height: 288px;
- width: 295px;
-left: 16px;
-top: 248px;
-border-radius: 0px;
-
-}
-.card_works .headline .left_block .first_primary .project_title .header {
- width: 295px;
- height: 36px;
- font-family: Poppins;
-font-size: 32px;
-font-weight: 700;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.card_works .headline .left_block .first_primary .project_title .frame ul{
-height: 32px;
-width: 236px;
-left: 0px;
-top: 48px;
-border-radius: 0px;
-
-}
-.card_works .headline .left_block .first_primary ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px;
-  height: 24px;
-
-}
-.card_works .headline .left_block .first_primary ul li{
-  margin-right: 10%;
-
+    
 }
 
-.card_works .headline .left_block .first_primary .none{
-  list-style: none;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+.page_one h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 140px;
+}
+.part_one p{
+    font-size: 16px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.connect {
+    color: blue;
+}
+.links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+
 
 }
-.card_works .headline .left_block .second_primary {
-  height: 76px;
-  width: 295px;
-  left: 0px;
-  top: 92px;
-  border-radius: nullpx;
-  font-family: Poppins;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-
-}
-.card_works .headline .left_block .tags {
-  height: 4px;
-  width: 203px;
-  left: 0px;
-  border-radius: 0px;
-  border-bottom: 10%;
-  margin-left: 0px;
-
-}
-.card_works .headline .left_block .tags ul{
-  display: flex;
-  align-items: flex-start;
-  list-style: none;
-  margin-right: 70px;
-  margin-left:0;
-  height: 100%;
-  width: 50%;
-  padding: 0px;
-  color: blue;
-  margin-top: 0;
-
-}
-.card_works .headline .left_block .tags ul li{
-  flex: 1;
-  background-color:  #EBEBFF;
-  border-radius: 30px;
-  margin-right: 35%;
-  height: 50%;
-  width: 50%;
-}
-.card_works .headline .left_block .action {
-  height: 72px;
-  width: 295px;
-  left: 0px;
-  top: 216px;
-  border-radius: 0px;
-
-}
-
-.card_works .headline .left_block .action .normal_button{
-  height: 48px;
-  width: 124px;
-  left: 0px;
-  top: 12px;
-  border-radius: 8px;
-  padding: 12px;
-  border: 1px solid blue;
-  margin-top: 10%;
-  color: blue;
-  
+.links ul li{
+    
 }
