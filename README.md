@@ -26,7 +26,7 @@ Contributions, issues, and features requests are welcome.
  Feel free to send me an email @ tonnytei4@gmail.com
 
   ## Show your support
-Give a star if you like my project
+Give a star if you like my work
 
 ## Acknowledgement
 Thanks to microverse for teaching me how to write codes.

@@ -24,6 +24,8 @@
 
 .logo a {
   font-size: 18px;
+  text-decoration: none;
+  color: blue;
 }
 
 .nav_icon {
