@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,10 +10,9 @@
   background-color: #e5e5e5;
   width: 327px;
   padding: 40px;
-
 }
-#header {
 
+#header {
   display: flex;
   justify-content: space-between;
   margin-left: 2%;
@@ -26,14 +26,13 @@
 
 .logo {
   font-size: 18px;
-
 }
 .nav_icon {
   margin: 8px;
 }
 
 .page_one {
-  margin:20px;
+  margin: 20px;
   background-image: url(images/header-mobile.png);
   font-size: 20px;
   display: flex;
@@ -49,7 +48,7 @@
   padding-top: 140px;
 }
 
-.part_one p{
+.part_one p {
   font-size: 16px;
   margin-right: 24px;
   margin-left: 24px;
